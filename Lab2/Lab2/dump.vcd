@@ -1,0 +1,616 @@
+$date
+	Mon Sep 07 12:35:43 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb $end
+$var wire 4 ! o [3:0] $end
+$var wire 1 " cout $end
+$var reg 1 # cin $end
+$var reg 1 $ clk $end
+$var reg 4 % i0 [3:0] $end
+$var reg 4 & i1 [3:0] $end
+$var reg 1 ' reset $end
+$var integer 32 ( i [31:0] $end
+$scope module u0 $end
+$var wire 4 ) a [3:0] $end
+$var wire 4 * b [3:0] $end
+$var wire 1 # cin $end
+$var wire 4 + sum [3:0] $end
+$var wire 1 " cout $end
+$var wire 3 , c [2:0] $end
+$scope module f1 $end
+$var wire 1 - a $end
+$var wire 1 . b $end
+$var wire 1 / cin $end
+$var wire 5 0 t [4:0] $end
+$var wire 1 1 sum $end
+$var wire 1 2 cout $end
+$scope module a0 $end
+$var wire 1 - i0 $end
+$var wire 1 . i1 $end
+$var wire 1 3 o2 $end
+$upscope $end
+$scope module a1 $end
+$var wire 1 - i0 $end
+$var wire 1 / i1 $end
+$var wire 1 4 o2 $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 . i0 $end
+$var wire 1 / i1 $end
+$var wire 1 5 o2 $end
+$upscope $end
+$scope module o0 $end
+$var wire 1 6 i0 $end
+$var wire 1 7 i1 $end
+$var wire 1 8 o3 $end
+$upscope $end
+$scope module o1 $end
+$var wire 1 9 i0 $end
+$var wire 1 : i1 $end
+$var wire 1 2 o3 $end
+$upscope $end
+$scope module x0 $end
+$var wire 1 - i0 $end
+$var wire 1 . i1 $end
+$var wire 1 ; o4 $end
+$upscope $end
+$scope module x1 $end
+$var wire 1 < i0 $end
+$var wire 1 / i1 $end
+$var wire 1 1 o4 $end
+$upscope $end
+$upscope $end
+$scope module f2 $end
+$var wire 1 = a $end
+$var wire 1 > b $end
+$var wire 1 ? cin $end
+$var wire 5 @ t [4:0] $end
+$var wire 1 A sum $end
+$var wire 1 B cout $end
+$scope module a0 $end
+$var wire 1 = i0 $end
+$var wire 1 > i1 $end
+$var wire 1 C o2 $end
+$upscope $end
+$scope module a1 $end
+$var wire 1 = i0 $end
+$var wire 1 ? i1 $end
+$var wire 1 D o2 $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 > i0 $end
+$var wire 1 ? i1 $end
+$var wire 1 E o2 $end
+$upscope $end
+$scope module o0 $end
+$var wire 1 F i0 $end
+$var wire 1 G i1 $end
+$var wire 1 H o3 $end
+$upscope $end
+$scope module o1 $end
+$var wire 1 I i0 $end
+$var wire 1 J i1 $end
+$var wire 1 B o3 $end
+$upscope $end
+$scope module x0 $end
+$var wire 1 = i0 $end
+$var wire 1 > i1 $end
+$var wire 1 K o4 $end
+$upscope $end
+$scope module x1 $end
+$var wire 1 L i0 $end
+$var wire 1 ? i1 $end
+$var wire 1 A o4 $end
+$upscope $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 M a $end
+$var wire 1 N b $end
+$var wire 1 O cin $end
+$var wire 5 P t [4:0] $end
+$var wire 1 Q sum $end
+$var wire 1 R cout $end
+$scope module a0 $end
+$var wire 1 M i0 $end
+$var wire 1 N i1 $end
+$var wire 1 S o2 $end
+$upscope $end
+$scope module a1 $end
+$var wire 1 M i0 $end
+$var wire 1 O i1 $end
+$var wire 1 T o2 $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 N i0 $end
+$var wire 1 O i1 $end
+$var wire 1 U o2 $end
+$upscope $end
+$scope module o0 $end
+$var wire 1 V i0 $end
+$var wire 1 W i1 $end
+$var wire 1 X o3 $end
+$upscope $end
+$scope module o1 $end
+$var wire 1 Y i0 $end
+$var wire 1 Z i1 $end
+$var wire 1 R o3 $end
+$upscope $end
+$scope module x0 $end
+$var wire 1 M i0 $end
+$var wire 1 N i1 $end
+$var wire 1 [ o4 $end
+$upscope $end
+$scope module x1 $end
+$var wire 1 \ i0 $end
+$var wire 1 O i1 $end
+$var wire 1 Q o4 $end
+$upscope $end
+$upscope $end
+$scope module f4 $end
+$var wire 1 ] a $end
+$var wire 1 ^ b $end
+$var wire 1 _ cin $end
+$var wire 5 ` t [4:0] $end
+$var wire 1 a sum $end
+$var wire 1 " cout $end
+$scope module a0 $end
+$var wire 1 ] i0 $end
+$var wire 1 ^ i1 $end
+$var wire 1 b o2 $end
+$upscope $end
+$scope module a1 $end
+$var wire 1 ] i0 $end
+$var wire 1 _ i1 $end
+$var wire 1 c o2 $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 ^ i0 $end
+$var wire 1 _ i1 $end
+$var wire 1 d o2 $end
+$upscope $end
+$scope module o0 $end
+$var wire 1 e i0 $end
+$var wire 1 f i1 $end
+$var wire 1 g o3 $end
+$upscope $end
+$scope module o1 $end
+$var wire 1 h i0 $end
+$var wire 1 i i1 $end
+$var wire 1 " o3 $end
+$upscope $end
+$scope module x0 $end
+$var wire 1 ] i0 $end
+$var wire 1 ^ i1 $end
+$var wire 1 j o4 $end
+$upscope $end
+$scope module x1 $end
+$var wire 1 k i0 $end
+$var wire 1 _ i1 $end
+$var wire 1 a o4 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+b0 `
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+b0 P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+b0 @
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+b0 0
+0/
+0.
+0-
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+1'
+b0 &
+b0 %
+0$
+0#
+0"
+b0 !
+$end
+#50
+1$
+#100
+0$
+#125
+0'
+#150
+1$
+#160
+b1 !
+b1 +
+11
+1<
+b1 0
+1;
+1.
+b1 (
+b1 &
+b1 *
+#200
+0$
+#250
+1$
+#260
+1A
+1?
+b1 ,
+12
+1:
+18
+b10 !
+b10 +
+01
+16
+0<
+13
+b10010 0
+0;
+1-
+b10 (
+b1 %
+b1 )
+#300
+0$
+#350
+1$
+#360
+1a
+1_
+1R
+1Z
+1X
+1W
+1T
+1O
+b111 ,
+1B
+1J
+1H
+0A
+b1000 !
+b1000 +
+0Q
+1G
+1L
+1\
+1D
+b10101 @
+1K
+b10101 P
+1[
+1=
+1M
+b11 (
+b111 %
+b111 )
+#400
+0$
+#450
+1$
+#460
+0a
+0_
+0R
+1Q
+0O
+0B
+1A
+0?
+b0 ,
+02
+0:
+0J
+0Z
+08
+b111 !
+b111 +
+11
+0H
+0X
+06
+1<
+0G
+0W
+0I
+0Y
+03
+b1 0
+1;
+0D
+0T
+b1 @
+0E
+b1 P
+0U
+0-
+0=
+0M
+1>
+1N
+b100 (
+b0 %
+b0 )
+b111 &
+b111 *
+#500
+0$
+#550
+1$
+#560
+1W
+1Y
+1T
+1U
+1a
+1O
+1_
+1B
+b110 ,
+1R
+1J
+1Z
+1H
+0A
+1X
+b1101 !
+b1101 +
+1Q
+1F
+0L
+1V
+0\
+1C
+b10010 @
+0K
+1S
+b11110 P
+0[
+1=
+1M
+b101 (
+b110 %
+b110 )
+1#
+#600
+0$
+#650
+1$
+#660
+1G
+1D
+1Q
+1?
+1O
+0_
+12
+1B
+b11 ,
+0R
+1:
+1J
+0Z
+18
+01
+1H
+0A
+0X
+0"
+b1100 !
+b1100 +
+1a
+16
+0<
+0W
+0F
+1L
+0V
+0Y
+0h
+1k
+13
+b10010 0
+0;
+0T
+0C
+b10101 @
+1K
+0S
+b0 P
+0U
+0d
+b1 `
+1j
+1-
+0M
+0>
+0N
+1^
+b110 (
+b11 %
+b11 )
+b1001 &
+b1001 *
+#700
+0$
+#750
+1$
+#760
+1"
+1i
+1g
+1f
+b10101 `
+1c
+0a
+1_
+b111 ,
+1R
+1Z
+1X
+b0 !
+b0 +
+0Q
+1W
+1\
+1T
+b10101 P
+1[
+1M
+1]
+0^
+b111 (
+b1111 %
+b1111 )
+b1 &
+b1 *
+#800
+0$
+#850
+1$
+#860
+0"
+0i
+0g
+1a
+1A
+b1110 !
+b1110 +
+1Q
+0f
+0k
+1F
+1I
+0L
+1V
+1Y
+0\
+0c
+b0 `
+0j
+1C
+1E
+b11110 @
+0K
+1S
+1U
+b11110 P
+0[
+0]
+1>
+1N
+b1000 (
+b111 %
+b111 )
+b111 &
+b111 *
+0#
+#900
+0$
+#950
+1$
+#1000
+0$
+#1050
+1$
+#1100
+0$
+#1150
+1$
+#1200
+0$
+#1250
+1$
+#1300
+0$
+#1350
+1$
+#1400
+0$
+#1450
+1$
+#1500
+0$
+#1550
+1$
+#1600
+0$
+#1650
+1$
+#1700
+0$
+#1750
+1$
+#1800
+0$
+#1850
+1$
+#1860
